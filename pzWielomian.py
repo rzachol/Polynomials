@@ -10,7 +10,7 @@ from math import sqrt
 
 while True:
     try:
-        s = input("Wprowadz wyrażenie wielomianowe: ") # np. 5x2 - 6x + 5*(2x - 3x2)
+        s = input("Wprowadź wyrażenie wielomianowe: ") # np. 5x2 - 6x + 5*(2x - 3x2)
         if not s: continue
         w = parse_wielomian(s)
         w_exponents = set(w.keys())
