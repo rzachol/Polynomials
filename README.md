@@ -19,7 +19,7 @@ Program wykonuje także dzielenie wielomianów (operator „div”) oraz wylicza
     Postać kanoniczna tego wielomianu: -2x + 3
 
 Oprócz pliku „pzWielomian.py” program składa się także z analizatora składniowego i leksykalnego (plik 
-„pzParseWielomian.py”) oraz modułu definiującego operacje na wielomianach (plik „pzPolinomialOperations”).
+„pzParseWielomian.py”) oraz modułu definiującego operacje na wielomianach (plik „pzPolynomialOperations”).
 
 Program korzysta z modułu "PLY" (_Python Lex Yacc_), który trzeba zainstalować komendą "pip3 install ply",
 albo skopiować ze strony autora: http://www.dabeaz.com/ply/
